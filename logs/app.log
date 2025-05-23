@@ -1,0 +1,31 @@
+2025-05-21 21:56:14 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 21:56:14 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 21:56:14 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 21:56:15 - WARNING -  * Debugger is active!
+2025-05-21 21:56:15 - INFO -  * Debugger PIN: 558-587-405
+2025-05-21 21:56:40 - INFO - Featched all logs successfully.
+2025-05-21 21:56:40 - INFO - 127.0.0.1 - - [21/May/2025 21:56:40] "GET /tasks HTTP/1.1" 200 -
+2025-05-21 21:56:55 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 21:56:55 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 21:56:55 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-21 21:56:55 - WARNING -  * Debugger is active!
+2025-05-21 21:56:55 - INFO -  * Debugger PIN: 558-587-405
+2025-05-21 21:58:14 - INFO - New task added with task id - 5
+2025-05-21 21:58:14 - INFO - 127.0.0.1 - - [21/May/2025 21:58:14] "POST /add HTTP/1.1" 200 -
+2025-05-21 21:59:08 - INFO - Task details has been updated - 5
+2025-05-21 21:59:08 - INFO - 127.0.0.1 - - [21/May/2025 21:59:08] "PUT /update/5 HTTP/1.1" 200 -
+2025-05-21 21:59:48 - INFO - 127.0.0.1 - - [21/May/2025 21:59:48] "[33mPUT /DELETE/5 HTTP/1.1[0m" 404 -
+2025-05-22 11:12:02 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-05-22 11:12:02 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 11:12:02 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-22 11:12:03 - WARNING -  * Debugger is active!
+2025-05-22 11:12:03 - INFO -  * Debugger PIN: 558-587-405
+2025-05-22 11:12:21 - INFO - Featched all logs successfully.
+2025-05-22 11:12:21 - INFO - 127.0.0.1 - - [22/May/2025 11:12:21] "GET /tasks HTTP/1.1" 200 -
+2025-05-22 11:12:32 - INFO - Featched all logs successfully.
+2025-05-22 11:12:32 - INFO - 127.0.0.1 - - [22/May/2025 11:12:32] "GET /tasks HTTP/1.1" 200 -
