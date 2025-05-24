@@ -1,0 +1,32 @@
+name: Personal Task Tracker Flask APP CI/CD with Docker
+on:
+    push:
+        branches:
+            - main
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout Repository
+          uses: actions/checkout@v2
+
+        - name: Setup docker buildx
+          uses: docker/setup-buildx-aciton@v2
+        
+        - name: Login to Azure Container Registry
+          uses: azure/docker-login@v1
+          with:
+            login-server: ${{ secrets.ACR_LOGIN_SERVER }}
+            username: ${{ secrets.ACR_USERNAME }}
+            password: ${{ secrets.ACR_PASSWORD }}
+
+        - name: build and push docker image
+          run: |
+            docker build -t ${{ secrets.ACR_USERNAME }}/personal_task_tracker:latest .
+            docker push ${{ secrets.ACR_LOGIN_SERVER }}/personal_task_tracker:latest
+
+        - name: Deploy Container to Azure
+          uses: azure/webapps-deploy@v2
+          with:
+            app-name: "PTrackerWeb"
+            images: "${{ secrets.ACR_LOGIN_SERVER }}/personal_task_tracker:latest"
