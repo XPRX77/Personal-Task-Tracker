@@ -22,7 +22,7 @@ jobs:
 
         - name: build and push docker image
           run: |
-            docker build -t ${{ secrets.ACR_USERNAME }}/personal_task_tracker:latest .
+            docker build -t ${{ secrets.ACR_LOGIN_SERVER }}/personal_task_tracker:latest .
             docker push ${{ secrets.ACR_LOGIN_SERVER }}/personal_task_tracker:latest
 
         - name: Deploy Container to Azure
