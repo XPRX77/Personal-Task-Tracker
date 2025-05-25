@@ -3,10 +3,20 @@
 
 🚀 A full-stack Task Management application powered by Flask, SQLite, Docker, and Azure.
 
+## Screenshots
 
-## Demo
+✅ APP Interface
+![App1](https://github.com/user-attachments/assets/880b49c1-80d7-4719-b6f2-ae047b9909e6)
+![App2](https://github.com/user-attachments/assets/f909de20-fa67-49d5-90f5-17e6847397d3)
 
-Insert gif or link to demo
+✅ Azure WEb APP
+![Azure_app](https://github.com/user-attachments/assets/c4824b54-cbc7-464d-8f46-122d25a47f7a)
+
+✅ Github Actions pipeline
+![actions](https://github.com/user-attachments/assets/45ec63fe-d738-4247-9f21-ff1ecd8b06ce)
+
+✅ API Call output
+![api_call](https://github.com/user-attachments/assets/e6a5b89e-1d2e-4973-989e-fa30a21187f3)
 
 
 ## ⚙️ Tech Stack
@@ -131,7 +141,5 @@ Insert gif or link to demo
 - Deploy frontend separately on Azure Static Web Apps
 
 
-## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
