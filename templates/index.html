@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f3;
+            margin: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        form {
+            background: white;
+            padding: 15px;
+            margin: 20px auto;
+            width: 350px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #4cae4c;
+        }
+        .reset-button {
+            background: #d9534f;
+        }
+        .reset-button:hover {
+            background: #c9302c;
+        }
+        .task-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .task-item {
+            background: white;
+            padding: 12px;
+            margin: 8px auto;
+            width: 350px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .code-block {
+        background: #222;
+        color: #fff;
+        padding: 15px;
+        text-align: left;
+        width: 98%;
+        margin: 20px auto;
+        border-radius: 8px;
+        font-family: monospace;
+        white-space: pre-line; /* Ensures line breaks */
+        display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personal Task Tracker</h1>
+    <div class="container">
+        <!-- Task Add Form -->
+        <form action="/add" method="post">
+            <input type="text" name="task" placeholder="Enter a new task" required>
+            <button type="submit">Add Task</button>
+        </form>
+
+        <!-- Reset Tasks Button -->
+        <form action="/reset_ids" method="post">
+            <button type="submit" class="reset-button">Reset Task ID</button>
+        </form>
+
+        <!-- Task List -->
+        <h2>Existing Tasks</h2>
+        <div class="task-list">
+            {% for task in tasks %}
+                <div class="task-item"><strong>{{ task.id }}.</strong> {{ task.task }}</div>
+            {% else %}
+                <div class="task-item">No tasks available.</div>
+            {% endfor %}
+        </div>
+
+        <!-- API Endpoints -->
+        <h2>cURL Commands</h2>
+        <div class="code-block">
+            curl -X GET http://myserver.com/tasks<br><br>
+            curl -X POST http://myserver.com/add -H "Content-Type: application/json" -d '{"task": "YOUR TASK VALUE"}'<br><br>
+            curl -X PUT http://myserver.com/update/5 -H "Content-Type: application/json" -d '{"task": "YOUR TASK VALUE"}'<br><br>
+            curl -X DELETE http://myserver.com/delete/5
+        </div>
+    </div>
+</body>
+</html>

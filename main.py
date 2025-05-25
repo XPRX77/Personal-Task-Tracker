@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template, redirect
 import sqlite3
 import logging
 
@@ -20,6 +20,18 @@ DB_File = "task.do"
 @app.route("/ping")
 def ping():
     return "pong", 200
+
+@app.route("/", methods=['GET'])
+def home():
+    try:
+        with sqlite3.connect(DB_File) as conn:
+            cursor = conn.execute("SELECT * FROM tasks")
+            tasks = [{"id":row[0], 'task':row[1]} for row in cursor.fetchall()]
+        logging.info("Featched all logs successfully.")
+        return render_template("index.html", tasks=tasks)
+    except Exception as e:
+        logging.error(f"Error fetching the details: {e}")
+        return jsonify({"error": "Internal Server Error"}), 500
 
 #initializing the database
 def int_db():
@@ -46,19 +58,45 @@ def get_tasks():
     except Exception as e:
         logging.error(f"Error fetching the details: {e}")
         return jsonify({"error": "Internal Server Error"}), 500
+    
+
+@app.route("/reset_ids", methods=["POST"])
+def reset_ids():
+    try:
+        with sqlite3.connect(DB_File) as conn:
+            cursor = conn.execute("SELECT COUNT(*) FROM tasks")
+            count = cursor.fetchone()[0]
+            if count == 0:
+                conn.execute("DELETE FROM sqlite_sequence WHERE name='tasks'")
+                logging.info("Task ID counter reset to 1.")
+                return "ID counter reset", 200
+            else:
+                return "Cannot reset — tasks table is not empty.", 400
+    except Exception as e:
+        logging.error(f"Error resetting ID counter: {e}")
+        return "Internal Server Error", 500
+
+
+
         
 #Add a new task
 @app.route("/add", methods=["POST"])
 def add_task():
     try:
-        task = request.json.get("task")
+        if request.is_json:
+            task = request.json.get("task")
+        else:
+            task = request.form.get("task")
         if not task:
             return jsonify({"error": "Task content are required."}), 400
         with sqlite3.connect(DB_File) as conn:
             cursor = conn.execute("INSERT INTO tasks (task) VALUES (?)", (task,))
             task_id = cursor.lastrowid
         logging.info(f"New task added with task id - {task_id}")
-        return jsonify({"id": task_id, "task": task})
+        if request.is_json:
+            return jsonify({"id": task_id, "task": task})
+        else:
+            return redirect("/")
     except Exception as e:
         logging.error(f"Error while adding new task: {e}")
         return jsonify({"error": "Internal Server Error"}), 500
@@ -66,7 +104,7 @@ def add_task():
 
 
 #Update task
-@app.route("/update/<int:id>", methods=["PUT"])
+@app.route("/update/<int:id>", methods=["PUT"]) 
 def update_task(id):
     try:
         task = request.json.get("task")

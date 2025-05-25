@@ -29,3 +29,375 @@
 2025-05-22 11:12:21 - INFO - 127.0.0.1 - - [22/May/2025 11:12:21] "GET /tasks HTTP/1.1" 200 -
 2025-05-22 11:12:32 - INFO - Featched all logs successfully.
 2025-05-22 11:12:32 - INFO - 127.0.0.1 - - [22/May/2025 11:12:32] "GET /tasks HTTP/1.1" 200 -
+2025-05-24 19:33:42 - INFO - Created the database
+2025-05-24 19:33:42 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-05-24 19:33:42 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 19:33:42 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-24 19:33:42 - INFO - Created the database
+2025-05-24 19:33:42 - WARNING -  * Debugger is active!
+2025-05-24 19:33:42 - INFO -  * Debugger PIN: 558-587-405
+2025-05-24 19:33:52 - INFO - 127.0.0.1 - - [24/May/2025 19:33:52] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-24 19:33:53 - INFO - 127.0.0.1 - - [24/May/2025 19:33:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-24 19:34:18 - INFO - Featched all logs successfully.
+2025-05-24 19:34:18 - INFO - 127.0.0.1 - - [24/May/2025 19:34:18] "GET /tasks HTTP/1.1" 200 -
+2025-05-24 19:34:27 - INFO - 127.0.0.1 - - [24/May/2025 19:34:27] "GET /home HTTP/1.1" 200 -
+2025-05-24 23:14:01 - INFO - Created the database
+2025-05-24 23:14:01 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-05-24 23:14:01 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-24 23:14:01 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-24 23:14:02 - INFO - Created the database
+2025-05-24 23:14:02 - WARNING -  * Debugger is active!
+2025-05-24 23:14:02 - INFO -  * Debugger PIN: 558-587-405
+2025-05-24 23:14:07 - INFO - 127.0.0.1 - - [24/May/2025 23:14:07] "GET /home HTTP/1.1" 200 -
+2025-05-24 23:14:07 - INFO - 127.0.0.1 - - [24/May/2025 23:14:07] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2025-05-24 23:18:13 - INFO - 127.0.0.1 - - [24/May/2025 23:18:13] "GET /home HTTP/1.1" 200 -
+2025-05-24 23:18:23 - INFO - 127.0.0.1 - - [24/May/2025 23:18:23] "[31m[1mPOST /home HTTP/1.1[0m" 405 -
+2025-05-24 23:19:48 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-05-24 23:19:48 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-05-24 23:19:48 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-24 23:19:49 - INFO - Created the database
+2025-05-24 23:19:49 - WARNING -  * Debugger is active!
+2025-05-24 23:19:49 - INFO -  * Debugger PIN: 558-587-405
+2025-05-24 23:19:49 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\werkzeug\\user_agent.py', reloading
+2025-05-24 23:19:49 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\werkzeug\\datastructures\\auth.py', reloading
+2025-05-24 23:19:50 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-24 23:19:50 - INFO - Created the database
+2025-05-24 23:19:51 - WARNING -  * Debugger is active!
+2025-05-24 23:19:51 - INFO -  * Debugger PIN: 558-587-405
+2025-05-24 23:20:27 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2025-05-24 23:20:28 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-24 23:20:28 - INFO - Created the database
+2025-05-24 23:20:28 - WARNING -  * Debugger is active!
+2025-05-24 23:20:28 - INFO -  * Debugger PIN: 558-587-405
+2025-05-24 23:20:28 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2025-05-24 23:20:29 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-24 23:20:30 - INFO - Created the database
+2025-05-24 23:20:30 - WARNING -  * Debugger is active!
+2025-05-24 23:20:30 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 09:52:32 - INFO - Created the database
+2025-05-25 09:52:32 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-05-25 09:52:32 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 09:52:32 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 09:52:32 - INFO - Created the database
+2025-05-25 09:52:32 - WARNING -  * Debugger is active!
+2025-05-25 09:52:32 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 09:52:45 - INFO - Featched all logs successfully.
+2025-05-25 09:52:45 - INFO - 127.0.0.1 - - [25/May/2025 09:52:45] "GET / HTTP/1.1" 200 -
+2025-05-25 09:52:45 - INFO - 127.0.0.1 - - [25/May/2025 09:52:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-25 09:52:50 - INFO - 127.0.0.1 - - [25/May/2025 09:52:50] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-05-25 09:53:01 - INFO - Featched all logs successfully.
+2025-05-25 09:53:01 - INFO - 127.0.0.1 - - [25/May/2025 09:53:01] "GET / HTTP/1.1" 200 -
+2025-05-25 09:53:47 - INFO - Featched all logs successfully.
+2025-05-25 09:53:47 - INFO - 127.0.0.1 - - [25/May/2025 09:53:47] "GET / HTTP/1.1" 200 -
+2025-05-25 09:53:52 - INFO - 127.0.0.1 - - [25/May/2025 09:53:52] "[33mPOST /add_html HTTP/1.1[0m" 404 -
+2025-05-25 09:54:39 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+2025-05-25 09:54:39 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\fixtures.py', reloading
+2025-05-25 09:54:39 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\config\\__init__.py', reloading
+2025-05-25 09:54:39 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\capture.py', reloading
+2025-05-25 09:54:39 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\doctest.py', reloading
+2025-05-25 09:54:39 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\compat.py', reloading
+2025-05-25 09:54:39 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\junitxml.py', reloading
+2025-05-25 09:54:39 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\legacypath.py', reloading
+2025-05-25 09:54:40 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\logging.py', reloading
+2025-05-25 09:54:40 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\monkeypatch.py', reloading
+2025-05-25 09:54:40 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\recwarn.py', reloading
+2025-05-25 09:54:40 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\_pytest\\tmpdir.py', reloading
+2025-05-25 09:54:40 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 09:54:40 - INFO - Created the database
+2025-05-25 09:54:40 - WARNING -  * Debugger is active!
+2025-05-25 09:54:40 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 09:55:46 - INFO - Featched all logs successfully.
+2025-05-25 09:55:46 - INFO - 127.0.0.1 - - [25/May/2025 09:55:46] "GET / HTTP/1.1" 200 -
+2025-05-25 09:55:50 - INFO - 127.0.0.1 - - [25/May/2025 09:55:50] "[33mPOST /add_task HTTP/1.1[0m" 404 -
+2025-05-25 09:56:21 - INFO - 127.0.0.1 - - [25/May/2025 09:56:21] "[33mPOST /add_task HTTP/1.1[0m" 404 -
+2025-05-25 09:56:24 - INFO - Featched all logs successfully.
+2025-05-25 09:56:24 - INFO - 127.0.0.1 - - [25/May/2025 09:56:24] "GET / HTTP/1.1" 200 -
+2025-05-25 09:56:30 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 09:56:30 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 09:56:30 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 09:56:30 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 09:56:30 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 09:56:30 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 09:56:30 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 09:56:31 - INFO - Created the database
+2025-05-25 09:56:31 - WARNING -  * Debugger is active!
+2025-05-25 09:56:31 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 09:56:32 - INFO - Featched all logs successfully.
+2025-05-25 09:56:32 - INFO - 127.0.0.1 - - [25/May/2025 09:56:32] "GET / HTTP/1.1" 200 -
+2025-05-25 09:56:38 - ERROR - Error while adding new task: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-05-25 09:56:38 - INFO - 127.0.0.1 - - [25/May/2025 09:56:38] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2025-05-25 09:57:31 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\werkzeug\\user_agent.py', reloading
+2025-05-25 09:57:31 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\werkzeug\\datastructures\\auth.py', reloading
+2025-05-25 09:57:31 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 09:57:31 - INFO - Created the database
+2025-05-25 09:57:31 - WARNING -  * Debugger is active!
+2025-05-25 09:57:31 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 09:57:35 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2025-05-25 09:57:35 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 09:57:36 - INFO - Created the database
+2025-05-25 09:57:36 - WARNING -  * Debugger is active!
+2025-05-25 09:57:36 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 09:57:44 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 09:57:44 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 09:57:45 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 09:57:45 - INFO - Created the database
+2025-05-25 09:57:45 - WARNING -  * Debugger is active!
+2025-05-25 09:57:45 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 09:57:50 - INFO - Featched all logs successfully.
+2025-05-25 09:57:50 - INFO - 127.0.0.1 - - [25/May/2025 09:57:50] "GET / HTTP/1.1" 200 -
+2025-05-25 09:57:53 - INFO - New task added with task id - 6
+2025-05-25 09:57:53 - INFO - 127.0.0.1 - - [25/May/2025 09:57:53] "POST /add HTTP/1.1" 200 -
+2025-05-25 09:58:52 - INFO - Featched all logs successfully.
+2025-05-25 09:58:52 - INFO - 127.0.0.1 - - [25/May/2025 09:58:52] "GET /tasks HTTP/1.1" 200 -
+2025-05-25 09:59:03 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\sqlite3\\__init__.py', reloading
+2025-05-25 09:59:04 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 09:59:05 - INFO - Created the database
+2025-05-25 09:59:05 - WARNING -  * Debugger is active!
+2025-05-25 09:59:05 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 10:02:01 - INFO - Featched all logs successfully.
+2025-05-25 10:02:01 - INFO - 127.0.0.1 - - [25/May/2025 10:02:01] "GET / HTTP/1.1" 200 -
+2025-05-25 10:02:58 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\logging\\__init__.py', reloading
+2025-05-25 10:02:58 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 10:02:59 - INFO - Created the database
+2025-05-25 10:02:59 - WARNING -  * Debugger is active!
+2025-05-25 10:02:59 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 10:03:32 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:03:32 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:03:33 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:03:33 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:03:33 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:03:33 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 10:03:33 - INFO - Created the database
+2025-05-25 10:03:33 - WARNING -  * Debugger is active!
+2025-05-25 10:03:33 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 10:03:36 - INFO - Featched all logs successfully.
+2025-05-25 10:03:36 - INFO - 127.0.0.1 - - [25/May/2025 10:03:36] "GET / HTTP/1.1" 200 -
+2025-05-25 10:05:23 - INFO - Featched all logs successfully.
+2025-05-25 10:05:23 - INFO - 127.0.0.1 - - [25/May/2025 10:05:23] "GET / HTTP/1.1" 200 -
+2025-05-25 10:05:33 - INFO - New task added with task id - 7
+2025-05-25 10:05:33 - INFO - 127.0.0.1 - - [25/May/2025 10:05:33] "POST /add HTTP/1.1" 200 -
+2025-05-25 10:05:38 - INFO - Featched all logs successfully.
+2025-05-25 10:05:38 - INFO - 127.0.0.1 - - [25/May/2025 10:05:38] "GET / HTTP/1.1" 200 -
+2025-05-25 10:05:52 - INFO - 127.0.0.1 - - [25/May/2025 10:05:52] "[31m[1mGET /update/1?task=Updated+this+task+from+ui HTTP/1.1[0m" 405 -
+2025-05-25 10:11:43 - INFO - Featched all logs successfully.
+2025-05-25 10:11:43 - INFO - 127.0.0.1 - - [25/May/2025 10:11:43] "GET / HTTP/1.1" 200 -
+2025-05-25 10:11:58 - INFO - New task added with task id - 8
+2025-05-25 10:11:58 - INFO - 127.0.0.1 - - [25/May/2025 10:11:58] "POST /add HTTP/1.1" 200 -
+2025-05-25 10:13:14 - INFO - Featched all logs successfully.
+2025-05-25 10:13:14 - INFO - 127.0.0.1 - - [25/May/2025 10:13:14] "GET / HTTP/1.1" 200 -
+2025-05-25 10:13:22 - INFO - New task added with task id - 9
+2025-05-25 10:13:22 - INFO - 127.0.0.1 - - [25/May/2025 10:13:22] "POST /add HTTP/1.1" 200 -
+2025-05-25 10:13:28 - INFO - Featched all logs successfully.
+2025-05-25 10:13:28 - INFO - 127.0.0.1 - - [25/May/2025 10:13:28] "GET / HTTP/1.1" 200 -
+2025-05-25 10:19:32 - INFO -  * Detected change in 'C:\\Learning\\anaconda3\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-05-25 10:19:32 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 10:19:33 - INFO - Created the database
+2025-05-25 10:19:33 - WARNING -  * Debugger is active!
+2025-05-25 10:19:33 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 10:19:38 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:19:38 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:19:39 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:19:39 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:19:39 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:19:39 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:19:39 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:19:39 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:19:39 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:19:39 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 10:19:39 - INFO - Created the database
+2025-05-25 10:19:39 - WARNING -  * Debugger is active!
+2025-05-25 10:19:39 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 10:19:42 - INFO - Featched all logs successfully.
+2025-05-25 10:19:42 - INFO - 127.0.0.1 - - [25/May/2025 10:19:42] "GET / HTTP/1.1" 200 -
+2025-05-25 10:19:47 - INFO - New task added with task id - 10
+2025-05-25 10:19:47 - INFO - 127.0.0.1 - - [25/May/2025 10:19:47] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:19:47 - INFO - Featched all logs successfully.
+2025-05-25 10:19:47 - INFO - 127.0.0.1 - - [25/May/2025 10:19:47] "GET / HTTP/1.1" 200 -
+2025-05-25 10:19:55 - INFO - New task added with task id - 11
+2025-05-25 10:19:55 - INFO - 127.0.0.1 - - [25/May/2025 10:19:55] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:19:55 - INFO - Featched all logs successfully.
+2025-05-25 10:19:55 - INFO - 127.0.0.1 - - [25/May/2025 10:19:55] "GET / HTTP/1.1" 200 -
+2025-05-25 10:20:03 - INFO - Featched all logs successfully.
+2025-05-25 10:20:03 - INFO - 127.0.0.1 - - [25/May/2025 10:20:03] "GET /tasks HTTP/1.1" 200 -
+2025-05-25 10:20:45 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:20:45 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:20:45 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 10:20:46 - INFO - Created the database
+2025-05-25 10:20:46 - WARNING -  * Debugger is active!
+2025-05-25 10:20:46 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 10:20:48 - INFO - Featched all logs successfully.
+2025-05-25 10:20:48 - INFO - 127.0.0.1 - - [25/May/2025 10:20:48] "GET / HTTP/1.1" 200 -
+2025-05-25 10:20:52 - INFO - New task added with task id - 12
+2025-05-25 10:20:52 - INFO - 127.0.0.1 - - [25/May/2025 10:20:52] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:20:52 - INFO - Featched all logs successfully.
+2025-05-25 10:20:52 - INFO - 127.0.0.1 - - [25/May/2025 10:20:52] "GET / HTTP/1.1" 200 -
+2025-05-25 10:20:59 - INFO - Featched all logs successfully.
+2025-05-25 10:20:59 - INFO - 127.0.0.1 - - [25/May/2025 10:20:59] "GET /tasks HTTP/1.1" 200 -
+2025-05-25 10:21:04 - INFO - Featched all logs successfully.
+2025-05-25 10:21:04 - INFO - 127.0.0.1 - - [25/May/2025 10:21:04] "GET / HTTP/1.1" 200 -
+2025-05-25 10:21:36 - INFO - Created the database
+2025-05-25 10:21:36 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-05-25 10:21:36 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 10:21:36 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 10:21:36 - INFO - Created the database
+2025-05-25 10:21:36 - WARNING -  * Debugger is active!
+2025-05-25 10:21:36 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 10:21:40 - INFO - Featched all logs successfully.
+2025-05-25 10:21:40 - INFO - 127.0.0.1 - - [25/May/2025 10:21:40] "GET / HTTP/1.1" 200 -
+2025-05-25 10:21:42 - INFO - Featched all logs successfully.
+2025-05-25 10:21:42 - INFO - 127.0.0.1 - - [25/May/2025 10:21:42] "GET / HTTP/1.1" 200 -
+2025-05-25 10:21:57 - INFO - New task added with task id - 13
+2025-05-25 10:21:57 - INFO - 127.0.0.1 - - [25/May/2025 10:21:57] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:21:57 - INFO - Featched all logs successfully.
+2025-05-25 10:21:57 - INFO - 127.0.0.1 - - [25/May/2025 10:21:57] "GET / HTTP/1.1" 200 -
+2025-05-25 10:22:58 - INFO - New task added with task id - 14
+2025-05-25 10:22:58 - INFO - 127.0.0.1 - - [25/May/2025 10:22:58] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:22:58 - INFO - Featched all logs successfully.
+2025-05-25 10:22:58 - INFO - 127.0.0.1 - - [25/May/2025 10:22:58] "GET / HTTP/1.1" 200 -
+2025-05-25 10:23:55 - INFO - 127.0.0.1 - - [25/May/2025 10:23:55] "[33mPUT /DELETE/1 HTTP/1.1[0m" 404 -
+2025-05-25 10:24:17 - INFO - Featched all logs successfully.
+2025-05-25 10:24:17 - INFO - 127.0.0.1 - - [25/May/2025 10:24:17] "GET /tasks HTTP/1.1" 200 -
+2025-05-25 10:24:39 - INFO - 127.0.0.1 - - [25/May/2025 10:24:39] "[33mDELETE /DELETE/1 HTTP/1.1[0m" 404 -
+2025-05-25 10:24:53 - INFO - Task details has been deleted - 1
+2025-05-25 10:24:53 - INFO - 127.0.0.1 - - [25/May/2025 10:24:53] "DELETE /delete/1 HTTP/1.1" 200 -
+2025-05-25 10:25:04 - INFO - Featched all logs successfully.
+2025-05-25 10:25:04 - INFO - 127.0.0.1 - - [25/May/2025 10:25:04] "GET / HTTP/1.1" 200 -
+2025-05-25 10:25:10 - INFO - Task details has been deleted - 2
+2025-05-25 10:25:10 - INFO - 127.0.0.1 - - [25/May/2025 10:25:10] "DELETE /delete/2 HTTP/1.1" 200 -
+2025-05-25 10:25:13 - INFO - Task details has been deleted - 3
+2025-05-25 10:25:13 - INFO - 127.0.0.1 - - [25/May/2025 10:25:13] "DELETE /delete/3 HTTP/1.1" 200 -
+2025-05-25 10:25:18 - INFO - Task details has been deleted - 4
+2025-05-25 10:25:18 - INFO - 127.0.0.1 - - [25/May/2025 10:25:18] "DELETE /delete/4 HTTP/1.1" 200 -
+2025-05-25 10:25:20 - INFO - Task details has been deleted - 5
+2025-05-25 10:25:20 - INFO - 127.0.0.1 - - [25/May/2025 10:25:20] "DELETE /delete/5 HTTP/1.1" 200 -
+2025-05-25 10:25:22 - INFO - Task details has been deleted - 6
+2025-05-25 10:25:22 - INFO - 127.0.0.1 - - [25/May/2025 10:25:22] "DELETE /delete/6 HTTP/1.1" 200 -
+2025-05-25 10:25:24 - INFO - Task details has been deleted - 7
+2025-05-25 10:25:24 - INFO - 127.0.0.1 - - [25/May/2025 10:25:24] "DELETE /delete/7 HTTP/1.1" 200 -
+2025-05-25 10:25:27 - INFO - Task details has been deleted - 8
+2025-05-25 10:25:27 - INFO - 127.0.0.1 - - [25/May/2025 10:25:27] "DELETE /delete/8 HTTP/1.1" 200 -
+2025-05-25 10:25:33 - INFO - Task details has been deleted - 9
+2025-05-25 10:25:33 - INFO - 127.0.0.1 - - [25/May/2025 10:25:33] "DELETE /delete/9 HTTP/1.1" 200 -
+2025-05-25 10:25:37 - INFO - Task details has been deleted - 910
+2025-05-25 10:25:37 - INFO - 127.0.0.1 - - [25/May/2025 10:25:37] "DELETE /delete/910 HTTP/1.1" 200 -
+2025-05-25 10:25:39 - INFO - Task details has been deleted - 91011
+2025-05-25 10:25:39 - INFO - 127.0.0.1 - - [25/May/2025 10:25:39] "DELETE /delete/91011 HTTP/1.1" 200 -
+2025-05-25 10:25:47 - INFO - Featched all logs successfully.
+2025-05-25 10:25:47 - INFO - 127.0.0.1 - - [25/May/2025 10:25:47] "GET / HTTP/1.1" 200 -
+2025-05-25 10:25:52 - INFO - Task details has been deleted - 10
+2025-05-25 10:25:52 - INFO - 127.0.0.1 - - [25/May/2025 10:25:52] "DELETE /delete/10 HTTP/1.1" 200 -
+2025-05-25 10:25:54 - INFO - Task details has been deleted - 11
+2025-05-25 10:25:54 - INFO - 127.0.0.1 - - [25/May/2025 10:25:54] "DELETE /delete/11 HTTP/1.1" 200 -
+2025-05-25 10:25:56 - INFO - Task details has been deleted - 12
+2025-05-25 10:25:56 - INFO - 127.0.0.1 - - [25/May/2025 10:25:56] "DELETE /delete/12 HTTP/1.1" 200 -
+2025-05-25 10:25:59 - INFO - Task details has been deleted - 13
+2025-05-25 10:25:59 - INFO - 127.0.0.1 - - [25/May/2025 10:25:59] "DELETE /delete/13 HTTP/1.1" 200 -
+2025-05-25 10:26:01 - INFO - Task details has been deleted - 14
+2025-05-25 10:26:01 - INFO - 127.0.0.1 - - [25/May/2025 10:26:01] "DELETE /delete/14 HTTP/1.1" 200 -
+2025-05-25 10:26:05 - INFO - Task details has been deleted - 15
+2025-05-25 10:26:05 - INFO - 127.0.0.1 - - [25/May/2025 10:26:05] "DELETE /delete/15 HTTP/1.1" 200 -
+2025-05-25 10:26:08 - INFO - Featched all logs successfully.
+2025-05-25 10:26:08 - INFO - 127.0.0.1 - - [25/May/2025 10:26:08] "GET / HTTP/1.1" 200 -
+2025-05-25 10:26:09 - INFO - Featched all logs successfully.
+2025-05-25 10:26:09 - INFO - 127.0.0.1 - - [25/May/2025 10:26:09] "GET / HTTP/1.1" 200 -
+2025-05-25 10:26:09 - INFO - Featched all logs successfully.
+2025-05-25 10:26:09 - INFO - 127.0.0.1 - - [25/May/2025 10:26:09] "GET / HTTP/1.1" 200 -
+2025-05-25 10:26:09 - INFO - Featched all logs successfully.
+2025-05-25 10:26:09 - INFO - 127.0.0.1 - - [25/May/2025 10:26:09] "GET / HTTP/1.1" 200 -
+2025-05-25 10:26:24 - INFO - New task added with task id - 15
+2025-05-25 10:26:24 - INFO - 127.0.0.1 - - [25/May/2025 10:26:24] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:26:24 - INFO - Featched all logs successfully.
+2025-05-25 10:26:24 - INFO - 127.0.0.1 - - [25/May/2025 10:26:24] "GET / HTTP/1.1" 200 -
+2025-05-25 10:26:31 - INFO - Featched all logs successfully.
+2025-05-25 10:26:31 - INFO - 127.0.0.1 - - [25/May/2025 10:26:31] "GET / HTTP/1.1" 200 -
+2025-05-25 10:27:02 - INFO - Featched all logs successfully.
+2025-05-25 10:27:02 - INFO - 127.0.0.1 - - [25/May/2025 10:27:02] "GET /tasks HTTP/1.1" 200 -
+2025-05-25 10:30:51 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:30:51 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:30:51 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:30:51 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:30:51 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:30:51 - INFO -  * Detected change in 'c:\\Users\\Pranav Pramod\\Desktop\\IDK\\Project\\Personal Task Tracker for Workflow Automation\\main.py', reloading
+2025-05-25 10:30:51 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-25 10:30:51 - INFO - Created the database
+2025-05-25 10:30:51 - WARNING -  * Debugger is active!
+2025-05-25 10:30:51 - INFO -  * Debugger PIN: 558-587-405
+2025-05-25 10:30:55 - INFO - Featched all logs successfully.
+2025-05-25 10:30:55 - INFO - 127.0.0.1 - - [25/May/2025 10:30:55] "GET / HTTP/1.1" 200 -
+2025-05-25 10:30:58 - INFO - 127.0.0.1 - - [25/May/2025 10:30:58] "[31m[1mPOST /reset_ids HTTP/1.1[0m" 400 -
+2025-05-25 10:32:52 - INFO - Featched all logs successfully.
+2025-05-25 10:32:52 - INFO - 127.0.0.1 - - [25/May/2025 10:32:52] "GET / HTTP/1.1" 200 -
+2025-05-25 10:32:57 - INFO - Task details has been deleted - 15
+2025-05-25 10:32:57 - INFO - 127.0.0.1 - - [25/May/2025 10:32:57] "DELETE /delete/15 HTTP/1.1" 200 -
+2025-05-25 10:33:01 - INFO - Featched all logs successfully.
+2025-05-25 10:33:01 - INFO - 127.0.0.1 - - [25/May/2025 10:33:01] "GET / HTTP/1.1" 200 -
+2025-05-25 10:33:06 - INFO - Task ID counter reset to 1.
+2025-05-25 10:33:06 - INFO - 127.0.0.1 - - [25/May/2025 10:33:06] "POST /reset_ids HTTP/1.1" 200 -
+2025-05-25 10:33:12 - INFO - Task ID counter reset to 1.
+2025-05-25 10:33:12 - INFO - 127.0.0.1 - - [25/May/2025 10:33:12] "POST /reset_ids HTTP/1.1" 200 -
+2025-05-25 10:33:56 - INFO - New task added with task id - 1
+2025-05-25 10:33:56 - INFO - 127.0.0.1 - - [25/May/2025 10:33:56] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:33:56 - INFO - Featched all logs successfully.
+2025-05-25 10:33:56 - INFO - 127.0.0.1 - - [25/May/2025 10:33:56] "GET / HTTP/1.1" 200 -
+2025-05-25 10:34:04 - INFO - New task added with task id - 2
+2025-05-25 10:34:04 - INFO - 127.0.0.1 - - [25/May/2025 10:34:04] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:34:04 - INFO - Featched all logs successfully.
+2025-05-25 10:34:04 - INFO - 127.0.0.1 - - [25/May/2025 10:34:04] "GET / HTTP/1.1" 200 -
+2025-05-25 10:34:11 - INFO - New task added with task id - 3
+2025-05-25 10:34:11 - INFO - 127.0.0.1 - - [25/May/2025 10:34:11] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:34:11 - INFO - Featched all logs successfully.
+2025-05-25 10:34:11 - INFO - 127.0.0.1 - - [25/May/2025 10:34:11] "GET / HTTP/1.1" 200 -
+2025-05-25 10:34:18 - INFO - New task added with task id - 4
+2025-05-25 10:34:18 - INFO - 127.0.0.1 - - [25/May/2025 10:34:18] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:34:18 - INFO - Featched all logs successfully.
+2025-05-25 10:34:18 - INFO - 127.0.0.1 - - [25/May/2025 10:34:18] "GET / HTTP/1.1" 200 -
+2025-05-25 10:34:27 - INFO - New task added with task id - 5
+2025-05-25 10:34:27 - INFO - 127.0.0.1 - - [25/May/2025 10:34:27] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:34:27 - INFO - Featched all logs successfully.
+2025-05-25 10:34:27 - INFO - 127.0.0.1 - - [25/May/2025 10:34:27] "GET / HTTP/1.1" 200 -
+2025-05-25 10:34:42 - INFO - New task added with task id - 6
+2025-05-25 10:34:42 - INFO - 127.0.0.1 - - [25/May/2025 10:34:42] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:34:42 - INFO - Featched all logs successfully.
+2025-05-25 10:34:42 - INFO - 127.0.0.1 - - [25/May/2025 10:34:42] "GET / HTTP/1.1" 200 -
+2025-05-25 10:34:53 - INFO - New task added with task id - 7
+2025-05-25 10:34:53 - INFO - 127.0.0.1 - - [25/May/2025 10:34:53] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:34:53 - INFO - Featched all logs successfully.
+2025-05-25 10:34:53 - INFO - 127.0.0.1 - - [25/May/2025 10:34:53] "GET / HTTP/1.1" 200 -
+2025-05-25 10:35:02 - INFO - New task added with task id - 8
+2025-05-25 10:35:02 - INFO - 127.0.0.1 - - [25/May/2025 10:35:02] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:35:02 - INFO - Featched all logs successfully.
+2025-05-25 10:35:02 - INFO - 127.0.0.1 - - [25/May/2025 10:35:02] "GET / HTTP/1.1" 200 -
+2025-05-25 10:41:18 - INFO - Featched all logs successfully.
+2025-05-25 10:41:18 - INFO - 127.0.0.1 - - [25/May/2025 10:41:18] "GET / HTTP/1.1" 200 -
+2025-05-25 10:43:37 - INFO - Featched all logs successfully.
+2025-05-25 10:43:37 - INFO - 127.0.0.1 - - [25/May/2025 10:43:37] "GET / HTTP/1.1" 200 -
+2025-05-25 10:44:20 - INFO - New task added with task id - 9
+2025-05-25 10:44:20 - INFO - 127.0.0.1 - - [25/May/2025 10:44:20] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-25 10:44:20 - INFO - Featched all logs successfully.
+2025-05-25 10:44:20 - INFO - 127.0.0.1 - - [25/May/2025 10:44:20] "GET / HTTP/1.1" 200 -
+2025-05-25 10:46:14 - INFO - Featched all logs successfully.
+2025-05-25 10:46:14 - INFO - 127.0.0.1 - - [25/May/2025 10:46:14] "GET / HTTP/1.1" 200 -
+2025-05-25 10:46:16 - INFO - Featched all logs successfully.
+2025-05-25 10:46:16 - INFO - 127.0.0.1 - - [25/May/2025 10:46:16] "GET / HTTP/1.1" 200 -
+2025-05-25 10:47:15 - INFO - Featched all logs successfully.
+2025-05-25 10:47:15 - INFO - 127.0.0.1 - - [25/May/2025 10:47:15] "GET / HTTP/1.1" 200 -
+2025-05-25 10:48:45 - INFO - Featched all logs successfully.
+2025-05-25 10:48:45 - INFO - 127.0.0.1 - - [25/May/2025 10:48:45] "GET / HTTP/1.1" 200 -
+2025-05-25 10:49:26 - INFO - Featched all logs successfully.
+2025-05-25 10:49:26 - INFO - 127.0.0.1 - - [25/May/2025 10:49:26] "GET / HTTP/1.1" 200 -
+2025-05-25 10:50:21 - INFO - Featched all logs successfully.
+2025-05-25 10:50:21 - INFO - 127.0.0.1 - - [25/May/2025 10:50:21] "GET / HTTP/1.1" 200 -
+2025-05-25 10:50:42 - INFO - Featched all logs successfully.
+2025-05-25 10:50:42 - INFO - 127.0.0.1 - - [25/May/2025 10:50:42] "GET / HTTP/1.1" 200 -
