@@ -3,7 +3,7 @@
 
 🚀 A full-stack Task Management application powered by Flask, SQLite, Docker, and Azure.
 
-This project utilizes Flask for the backend, SQLite for lightweight database storage, and a frontend built with HTML, CSS, and JavaScript for user interaction. It is Dockerized for portability, with images stored in Azure Container Registry (ACR) and deployed via Azure App Service. Authentication and deployment are managed through Azure Service Principal, while GitHub Actions automates CI/CD workflows. 🚀
+This project utilizes Flask for the backend, SQLite for lightweight database storage, and a frontend built with HTML Jinja Template for user interaction. It is Dockerized for portability, with images stored in Azure Container Registry (ACR) and deployed via Azure App Service. Authentication and deployment are managed through Azure Service Principal, while GitHub Actions automates CI/CD workflows. 🚀
 
 This ensures a scalable, cloud-deployed task tracker with seamless user interaction and backend integration. Let me know if you'd like any refinements! 🔥
 
